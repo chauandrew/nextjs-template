@@ -11,7 +11,9 @@ nvm use # switch to use the correct version of node
 npm i
 ```
 
-3. First, run the development server:
+3. Create a new file `.env` in the root directory. Copy the contents of `.env.example` to `.env` and fill it with the appropriate environment variables (eg database connection details)
+
+4. Run the development server:
 
 ```bash
 npm run dev
